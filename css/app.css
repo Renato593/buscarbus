@@ -1,0 +1,136 @@
+/*Buscarbus 2017*/
+
+/*Index*/
+body{background-color:#f2f2f2; }
+header{background-color: #fff;color: #2a7fff;margin: 0px 0px -9px 0px;}
+header span{color:#ff0066;}
+header h4 {font-weight: lighter;font-size: 24px;}
+footer{background-color: #333;color: #fff;padding: 30px 0px 30px 0px;}
+.marca a{text-decoration: none;}
+.menu ul{text-align: right;}
+.menu li{border-right: 1px solid #cdcdcd;padding: 15px 10px 20px 10px;}
+.menu li:nth-child(1){padding: 15px 10px 20px 10px;border-right: 1px solid #cdcdcd;border-left: 1px solid #cdcdcd;}
+.menu a {text-decoration: none;color:#2a7fff;}
+.menu h5{color: #333;text-align: left;padding: 0px 15px 0px 15px;}
+.menu h6 {padding: 0px 15px 0px 15px;text-align: left;}
+.menu a:hover{color: #666;transition-duration: 0.4s, 0.4s;}
+.fondo{background-color: #fff;text-align: center; padding: 70px 0px 150px 0px;}
+.fondo h1 {padding: 0px 0px 15px 0px;}
+.subtitulo{background-color: #fff;color: #666;padding: 20px 0px 20px 0px;}
+.subtitulo a {text-decoration: none;color: #f2f2f2;}
+.ticket {border:1px dashed #ff0066;margin: 5px 5px 5px 5px;padding: 0px 0px 10px 0px;}
+.ticket h2{font-weight: 900;color: #ff0066;line-height: 9px;}
+.ticket h3{line-height: 7px;font-weight: 900;}
+.ticket h5{line-height: 7px;}
+.ticket a{text-decoration: none;}
+.tarjeta-compartir {background-color: #333;padding: 0px 0px 0px 0px;color: #fff;}
+.tarjeta-compartir h4{color:#ff0066; }
+.instrucciones{background-color: #fff;padding: 20px 0px 30px 0px;}
+.instrucciones h2 {color:#666;}
+.instrucciones h3 {color:#2a7fff;}
+.instrucciones p {color:#777;}
+.numeros{text-align: center;padding: 30px 0px 30px 0px;}
+.numeros h3{font-weight: 900;line-height: 5px;color: #2a7fff;}
+.numeros span {font-size: 25px;}
+.blog{background-color: #777;padding: 20px 0px 20px 0px; color: #f2f2f2;}
+.pie a{text-decoration: none;}
+.derechos{background-color: #555;color: #f2f2f2;}
+/**/
+
+/*Publicar trayecto*/
+.titular-progreso{background-color: #2a7fff;color: #fff;}
+.progreso{background-color: #444;color: #fff;padding: 0px 0px 0px 0px;line-height: 0px;}
+.rect{border: 1px solid #444;padding: 0px 0px 20px 0px;background-color: #444;color: #2a7fff;}
+.rect-activo{border: 1px solid #555;padding: 0px 0px 20px 0px;background-color: #555;}
+.formulario-publicar .row {padding: 10px 20px 10px 20px;}
+.formulario-publicar{border:1px solid #cdcdcd;margin: 20px 0px 10px 0px;padding: 0px 0px 40px 0px;border-top: 0px solid #fff;background-color: #fff;}
+.formulario-publicar h5{padding: 16px 0px 16px 20px;color: #2a7fff;margin: 0px 0px 0px 0px;border-bottom: 1px solid #cdcdcd;border-top:1px solid #cdcdcd;}
+.ruta-viaje{border:1px solid #cdcdcd;margin: 20px 0px 10px 0px;padding: 0px 0px 0px 0px;border-top: 0px solid #fff;}
+.ruta-viaje h5{background-color: #fff;padding: 16px 0px 16px 20px;color: #2a7fff;margin: 0px 0px 0px 0px;border-bottom: 1px solid #cdcdcd;border-top:1px solid #cdcdcd;}
+.mapa{height: 200px;background-color: #333;}
+.dropdown-menu{width: 200px;}
+.dropdown-menu li{border-right: 0px solid #2a7fff;margin: 0px 0px -10px 0px;}
+.dropdown-menu li:nth-child(1){border-right: 0px solid #2a7fff;border-left: 0px solid #2a7fff;}
+/**/
+
+/*Publicar viaje*/
+.formulario-publicar-2{border:1px solid #cdcdcd;margin: 40px 0px 10px 0px;padding: 0px 0px 40px 0px;background-color: #fff;border-top: 0px solid #fff;}
+.formulario-publicar-2 .row {padding: 10px 20px 10px 20px;}
+.formulario-publicar-2 h5{padding: 16px 0px 16px 20px;color: #2a7fff;margin: 0px 0px 0px 0px;border-bottom: 1px solid #cdcdcd;border-top:1px solid #cdcdcd;}
+.ruta-viaje-2{border:1px solid #cdcdcd;margin: 40px 0px 10px 0px;padding: 0px 0px 0px 0px;background-color: #fff;border-top: 0px solid #fff;}
+.ruta-viaje-2 h5{padding: 16px 0px 16px 20px;color: #2a7fff;margin: 0px 0px 0px 0px;border-bottom: 1px solid #cdcdcd;border-top:1px solid #cdcdcd;}
+.ruta-viaje-2 ul{padding: 10px 20px 10px 20px;}
+.mapa-2 {height: 200px;background-color: #333;}
+/**/
+
+/*Registro usuario*/
+.formulario-registro .row {padding: 10px 20px 10px 20px;}
+.formulario-registro{border:1px solid #cdcdcd;margin: 20px 0px 10px 0px;padding: 0px 0px 40px 0px;background-color:#fff;}
+.formulario-registro h5{padding: 16px 0px 16px 20px;color: #2a7fff;margin: 0px 0px 0px 0px;border-bottom: 1px solid #cdcdcd;}
+.registro-promocion{border:1px solid #cdcdcd;margin: 20px 0px 10px 0px;padding: 0px 0px 0px 0px;background-color:#fff;}
+.registro-promocion h5{padding: 16px 0px 16px 20px;color: #2a7fff;margin: 0px 0px 0px 0px;border-bottom: 1px solid #cdcdcd;}
+.registro-promocion p{padding: 10px 20px 10px 20px;text-align: justify;}
+/**/
+
+/*Busqueda compartido*/
+.resultados-busqueda{background-color: #666; color:#f6f6f6;text-align: center;}
+.formulario-filtros{border:1px solid #cdcdcd;margin: 40px 0px 10px 0px;background-color: #fff;border-top: 0px solid #fff;}
+.formulario-filtros h6{padding: 16px 0px 16px 20px;color: #2a7fff;margin: 0px 0px 0px 0px;border-bottom: 1px solid #cdcdcd;border-top:1px solid #cdcdcd;}
+.formulario-filtros .row {padding: 10px 20px 10px 20px;}
+.formulario-buscar{border:1px solid #cdcdcd;margin: 40px 0px 10px 0px;background-color: #fff;border-top: 0px solid #fff;}
+.formulario-buscar h6{padding: 16px 0px 16px 20px;color: #2a7fff;margin: 0px 0px 0px 0px;border-bottom: 1px solid #cdcdcd;border-top:1px solid #cdcdcd;}
+.formulario-buscar .row {padding: 10px 20px 10px 20px;}
+.tarjeta-compartido {background-color: #fff;border:1px solid #cdcdcd;padding:  10px 10px 10px 10px;margin: 5px 0px 10px 0px;}
+.tarjeta-compartido:hover{background-color: #f2f2f2;}
+.tarjeta-compartido ul{margin: 5px 0px 0px 0px;}
+/**/
+
+/*Detalle compartido*/
+.tarjeta-perfil {background-color: #fff;border:1px solid #cdcdcd;padding:  10px 10px 10px 10px;margin: 5px 0px 10px 0px;}
+.tarjeta-perfil:hover{background-color: #f2f2f2;}
+.tarjeta-perfil ul{margin: 5px 0px 0px 0px;}
+.resumen-compartido{border:1px solid #cdcdcd;margin: 40px 0px 10px 0px;background-color: #fff;}
+.resumen-compartido h6{padding: 16px 0px 16px 20px;color: #2a7fff;margin: 0px 0px 0px 0px;border-bottom: 1px solid #cdcdcd;border-top:1px solid #cdcdcd;}
+.resumen-compartido .row {padding: 10px 20px 0px 20px;}
+.opiniones-perfil{border:1px solid #cdcdcd;margin: 40px 0px 10px 0px;background-color:#fff;border-top: 0px solid #fff;}
+.opiniones-perfil h6{padding: 16px 0px 16px 20px;color: #2a7fff;margin: 0px 0px 0px 0px;border-bottom: 1px solid #cdcdcd;border-top:1px solid #cdcdcd;}
+.opiniones-perfil .row {padding: 10px 20px 10px 20px;}
+.resultados-busqueda a{color: #00a9ff;text-decoration: none;}
+.resultados-busqueda a:hover{color: #2a7fff;}
+.contenedor-comentarios {background-color: #fff;border:1px solid #cdcdcd;padding:  15px 25px 10px 25px;margin: 5px 0px 10px 0px;}
+/**/
+
+/*reservacion*/
+.formulario-pago {background-color: #fff;border:1px solid #cdcdcd;padding:  0px 0px 10px 0px;margin: 5px 0px 10px 0px;border-top: 0px solid #fff;}
+.formulario-pago h5{background-color: #2a7fff; padding: 16px 0px 16px 20px;color: #fff;margin: 0px 0px 0px 0px;border-bottom: 1px solid #cdcdcd;border-top:1px solid #cdcdcd;}
+.formulario-pago h4{border: 1px solid #cdcdcd;padding: 5px 10px 5px  10px;border-radius: 4px;}
+.formulario-pago .row {padding: 10px 20px 10px 20px;}
+.pago-seguro{border: 1px solid #cdcdcd;padding: 15px 15px 15px 15px;background-color: #f6f6f6;}
+.pago-seguro .col-md-6 .col-md-12{padding: 0px 0px 0px 0px;}
+.pago-seguro .row{padding: 0px 5px 0px 5px;}
+.pago-seguro h5{margin: 0px;padding: 0px 0px 10px 0px;font-weight: 900;text-align: center;color: #666;}
+/**/
+
+/*Perfil usuario*/
+.tarjeta-usuario {background-color: #fff;border:1px solid #cdcdcd;padding:  0px 0px 0px 0px;margin: 10px 0px 10px 0px;height: 250px;}
+.perfil-usuario {background-color: #2a7fff;border:1px solid #cdcdcd;padding:  20px 20px 20px 20px;margin: 10px 0px 10px 0px;color: #fff;text-align: center;}
+.perfil-izq{border:1px solid #cdcdcd;margin: 10px 0px 10px 0px;background-color: #fff;}
+.perfil-izq h6{padding: 16px 0px 16px 20px;color: #2a7fff;margin: 0px 0px 0px 0px;border-bottom: 1px solid #cdcdcd;background-color: #}
+.perfil-izq .row {padding: 10px 20px 10px 20px;}
+.perfi-der{border:1px solid #cdcdcd;margin: 10px 0px 10px 0px;background-color: #fff;border-top: 0px solid #fff;}
+.perfi-der h6{padding: 16px 0px 16px 20px;background-color: #2a7fff; color: #fff;margin: 0px 0px 0px 0px;border-bottom: 1px solid #cdcdcd;border-top:1px solid #cdcdcd;}
+.perfi-der .row {padding: 10px 20px 0px 20px;}
+.datos-usuario{border: 1px solid #2a7fff;background-color: #fff;}
+.datos-usuario h4{border-bottom: 1px solid #f2f2f2;padding: 5px 0px 5px 0px;}
+.datos-usuario #my-tab{border-top:0px solid #2a7fff;border-right: 0px solid #2a7fff;border-left: 0px solid #2a7fff;}
+.datos-usuario .tab-content{padding: 10px 20px 10px 20px;}
+.datos-usuario h5{color:#2a7fff;}
+.resumen-publicaciones{background-color: #333;border:1px solid #cdcdcd;border-bottom: 0px solid#fff; color: #f2f2f2;}
+.resumen-publicaciones h5{padding: 20px 20px 20px 20px;background-color: #2a7fff;color: #fff;margin: 0px; text-align: center;}
+.resumen-publicaciones .row{padding: 10px 20px 10px 20px;}
+.mini-tarjeta{border-bottom: 1px solid #cdcdcd;}
+.mini-tarjeta .col-md-8{padding: 0px 5px 0px 5px}
+.mini-tarjeta .col-md-4{border-right: 1px solid #cdcdcd;}
+.opinion-usuario p{font-size: 11px;padding: 0px;}
+.opinion-usuario{border-bottom: 1px solid #cdcdcd;}
+/**/

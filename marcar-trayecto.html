@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Marcar trayecto</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/app.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+</head>
+<body>
+
+<!-- //// -->
+
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 marca"><a href="index.html"><h4><img src="img/isotipo.png"> bus<span>car</span>bus</h4></a></div>
+			<div class="col-md-9">
+				<nav class="menu">
+					<ul class="list-inline">
+						<li><a href="index.html">Buscar compartido</a></li>
+						<li><a href="index.html">Buscar autobus</a></li>
+						<li><a href="registro-usuario.html">Registrarse</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Iniciar sesion <img src="img/iconos/caret.png"></a>
+							<ul class="dropdown-menu" style="border-radius:0px;margin: 0px 0px 0px -4px;border:0px solid #fff;">
+							    <li><input type="text" class="form-control" placeholder="Email"></li>
+							    <li><input type="text" class="form-control" placeholder="Contraseña"></li>          
+							    <li><button type="button" class="btn btn-warning btn-lg btn-block">Iniciar sesion</button></li>       
+							</ul>  
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!-- //// -->
+
+<div class="titular-progreso">
+	<div class="container">
+		<div class="div row">
+			<div class="col-md-2 col-xs-4 text-center">
+				<h4>Nuevo usuario</h4>
+			</div>
+			<div class="col-md-2 col-xs-4 text-center">
+				<h4>Publica tu viaje</h4>
+			</div>
+			<div class="col-md-2 col-xs-4 text-center">
+				<h4>Detalles del viaje</h4>
+			</div>
+			<div class="col-md-6"></div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+
+<div class="progreso">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2 col-xs-4 text-center">
+			   <div class="rect">
+					<h3>1</h3>
+					<small>Registro</small>
+			   </div>			
+			</div>
+			<div class="col-md-2 col-xs-4 text-center">
+			   <div class="rect-activo">
+					<h3>2</h3>
+					<small>Trayecto</small>
+			   </div>			
+			</div>
+			<div class="col-md-2 col-xs-4 text-center">
+			   <div class="rect">
+					<h3>3</h3>
+					<small>Publicar viaje</small>
+			   </div>			
+			</div>
+			<div class="col-md-6"></div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+<div class="resultados-busqueda">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 text-left"><h6>¡Para empezar a publicar un viaje necesitas marcar un trayecto!</div>
+			<div class="col-md-3"><h6></h6></div>
+			<div class="col-md-3"><h6></h6></div>
+		</div>
+	</div>
+</div>
+<!-- //// -->
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="formulario-publicar">
+			  <h5>Punto de encuentro (Dejas y regojes pasajeros)</h5>
+				<div class="row">
+					<div class="col-md-6">
+						<span class="glyphicon glyphicon-map-marker" style="color: #2a7fff;"></span> Origen         
+						<input type="text" class="form-control" placeholder="Ej. Quito">       
+					</div>
+					<div class="col-md-6">
+						<span class="glyphicon glyphicon-map-marker" style="color: #00FF00;"></span> Destino 
+						<input type="text" class="form-control" placeholder="Ej. Guaranda">       
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<span class="glyphicon glyphicon-calendar" style="color: #777;"></span> Fecha         
+						<input type="text" class="form-control" placeholder="Ej. 19/05/2017">       
+					</div>
+					<div class="col-md-6">
+						<span class="glyphicon glyphicon-time" style="color: #777;"></span> Hora 
+						<input type="text" class="form-control" placeholder="Ej. 15:30">       
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="ruta-viaje">
+			  <h5>Ruta de viaje</h5>
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="mapa"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="row">
+				<div class="col-md-8"></div>
+				<div class="col-md-4">
+					<a href="publicar-viaje.html" class="btn btn-success btn-lg btn-block">Continuar</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+				<h3>Seguridad y confianza</h3>
+					<ul class="list-unstyled">
+						<li>- Equipo de atencion al usuario</li>
+						<li>- Usuarios con perfiles certificados y con opiniones</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6"></div>
+	</div>
+</div><br><br>
+
+<!-- //// -->
+<footer>
+	<div class="container pie">
+		<div class="row">
+			<div class="col-md-3">
+				<h4>Viajar con buscarbus</h4>
+				<ul class="list-unstyled">
+					<li><a href="">Como compartir vehiculo</a></li>
+					<li><a href="">Como buscar autobus</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Acerca de buscarbus</h4>
+				<ul class="list-unstyled">
+					<li><a href="">Sobre nosotros</a></li>
+					<li><a href="">Empleo</a></li>
+					<li><a href="">Contactos</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Informacion legal</h4>
+				<ul class="list-unstyled">
+					<li><a href="">Condiciones generales de uso</a></li>
+					<li><a href="">Terminos y condiciones</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Social</h4>
+				<ul class="list-inline">
+					<li><a href=""><img src="img/redes-sociales/facebook.png" alt="facebook"></a></li>
+					<li><a href=""><img src="img/redes-sociales/instagram.png" alt="instagram"></a></li>
+					<li><a href=""><img src="img/redes-sociales/tumblr.png" alt="tumblr"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- //// -->
+
+<div class="derechos">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12"><small>Todos los derechos reservados Buscarbus 2017</small></div>
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/npm.js"></script>
+
+
+</body>
+</html>

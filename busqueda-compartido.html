@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Busqueda compartido</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<!-- //// -->
+
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 marca"><a href="index.html"><h4><img src="img/isotipo.png"> bus<span>car</span>bus</h4></a></div>
+			<div class="col-md-9">
+				<nav class="menu">
+					<ul class="list-inline">
+						<li><a href="index.html">Buscar compartido</a></li>
+						<li><a href="index.html">Buscar autobus</a></li>
+						<li><a href="marcar-trayecto.html">Publicar viaje</a></li>
+						<li><a href="registro-usuario.html">Registarse</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Iniciar sesion <img src="img/iconos/caret.png"></a>
+							<ul class="dropdown-menu" style="border-radius:0px;margin: 0px 0px 0px -4px;border:0px solid #fff;">
+							    <li><input type="text" class="form-control" placeholder="Email"></li>
+							    <li><input type="text" class="form-control" placeholder="Contraseña"></li>          
+							    <li><button type="button" class="btn btn-warning btn-lg btn-block">Iniciar sesion</button></li>       
+							</ul>  
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!-- //// -->
+
+<div class="titular-progreso">
+	<div class="container">
+		<div class="div row">
+			<div class="col-md-2 text-center">
+				<h4>Elije servicio</h4>
+			</div>
+			<div class="col-md-2 text-center">
+				<h4>Buscar ruta</h4>
+			</div>
+			<div class="col-md-2 text-center">
+				<h4>Contactar</h4>
+			</div>
+			<div class="col-md-2 text-center">
+				<h4>Confirmar</h4>
+			</div>
+			<div class="col-md-4"></div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+
+<div class="progreso">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2 text-center">
+			   <div class="rect">
+					<h3>1</h3>
+					<small>Compartido - Autobus</small>
+			   </div>			
+			</div>
+			<div class="col-md-2 text-center">
+			   <div class="rect-activo">
+					<h3>2</h3>
+					<small>Origen - Destino</small>
+			   </div>			
+			</div>
+			<div class="col-md-2 text-center">
+			   <div class="rect">
+					<h3>3</h3>
+					<small>Enviar mensaje</small>
+			   </div>			
+			</div>
+			<div class="col-md-2 text-center">
+			   <div class="rect">
+					<h3>4</h3>
+					<small>Realizar pago</small>
+			   </div>			
+			</div>
+			<div class="col-md-6"></div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+
+<div class="resultados-busqueda">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3"><h6>Ruta: Quito - Tena</h6></div>
+			<div class="col-md-3"><h6>Servicio: Vehiculo compartido</h6></div>
+			<div class="col-md-3"><h6>Tiempo estimado de viaje: 5 horas</h6></div>
+			<div class="col-md-3"><h6>Fecha de ida: 11 de Marzo 2017</h6></div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-3">
+			<div class="formulario-filtros">
+			   <h6>Elegir otra fecha</h6>
+			   <div class="row">
+				   	<div class="col-md-12">
+				   		<input type="text" class="form-control" placeholder="Fecha"> 
+				   	</div>
+			   </div>
+			   <h6>Ordenar por precio</h6>
+			   <div class="row">
+				   	<div class="col-md-12">
+				   		<input type="checkbox" value=""> Mas bajo<br>
+				   		<input type="checkbox" value=""> Mas alto
+				   	</div>
+			   </div>
+			   <h6>Ordenar por hora de salida</h6>
+			   <div class="row">
+				   	<div class="col-md-12">
+				   		<input type="checkbox" value=""> Mas proximo <br>
+				   		<input type="checkbox" value=""> Menos proximo 
+				   	</div>
+			   </div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="row">
+				<div class="col-md-12">
+					<h5>Resultados encontrados para la ruta: 13 opciones</h5>
+				</div>
+			</div>
+		    <!-- /// -->
+			<div class="tarjeta-compartido">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-md-6">
+								<ul class="list-unstyled">
+									<li><li><img class="media-object" src="img/usuarios/usuario_1.png" alt="Media Object" width="70px;" height="70px;"></li>
+								</ul>
+							</div>
+							<div class="col-md-6">
+							    <ul class="list-unstyled">
+							    	<li><h5>Javier M.</h5></li>
+							    	<li><h5>30 años</h5></li>
+							    	<li><h5>Quito</h5></li>
+							    </ul>	
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="row">
+							<div class="col-md-12">
+								<ul class="list-unstyled">
+									<li><h5><strong>Quito → Tena</strong></h5></li>
+									<li><h5>11/03/2017</h5></li>
+									<li><h5>17:45</h5></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<div class="row">
+							<div class="col-md-6">
+								<ul class="list-unstyled">
+									<li><h6>Plazas disponibles</h6></li>
+									<li><h4><strong>2</strong></h4></li>
+								</ul>
+							</div>
+							<div class="col-md-6">
+								<ul class="list-unstyled">
+									<li><h6>Precio</h6></li>
+									<li><h3><strong>$ 9</strong></h3></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8">
+						<span class="label label-success">5 viajes</span>
+						<span class="label label-warning">5 opiniones</span>
+					</div>
+					<div class="col-md-4 text-center"><a href="contactar-conductor.html">Contactar conductor</a></div>
+				</div>
+			</div>			
+			<!-- /// -->
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="pagination">   
+						<li><a href="#">&laquo;</a></li>   
+						<li><a href="#">1</a></li>   
+	 					<li><a href="#">2</a></li>   
+	 					<li><a href="#">3</a></li>   
+	 					<li><a href="#">4</a></li>   
+	 					<li><a href="#">5</a></li>   
+	 					<li><a href="#">&raquo;</a></li> 
+ 					</ul>  
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="formulario-buscar">
+			   <h6>Realizar otra busqueda</h6>
+			   <div class="row">
+				   	<div class="col-md-12">
+				   		<input type="text" class="form-control" placeholder="Ciudad de origen">
+				   	</div>
+			   </div>
+			   <div class="row">
+				   	<div class="col-md-12">
+				   		<input type="text" class="form-control" placeholder="Ciudad de Destino">
+				   	</div>
+			   </div>
+			   <div class="row">
+				   	<div class="col-md-12">
+				   		<a href="busqueda-compartido.html" class="btn btn-primary btn-lg btn-block">Buscar compartido</a>
+				   	</div>
+			   </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+<footer>
+	<div class="container pie">
+		<div class="row">
+			<div class="col-md-3">
+				<h4>Viajar con buscarbus</h4>
+				<ul class="list-unstyled">
+					<li><a href="">Como compartir vehiculo</a></li>
+					<li><a href="">Como buscar autobus</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Acerca de buscarbus</h4>
+				<ul class="list-unstyled">
+					<li><a href="">Sobre nosotros</a></li>
+					<li><a href="">Empleo</a></li>
+					<li><a href="">Contactos</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Informacion legal</h4>
+				<ul class="list-unstyled">
+					<li><a href="">Condiciones generales de uso</a></li>
+					<li><a href="">Terminos y condiciones</a></li>
+					<li><a href="">Normas de uso</a></li>
+					<li><a href="">Formas de pago</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Social</h4>
+				<ul class="list-inline">
+					<li><a href=""><img src="img/redes-sociales/facebook.png" alt="facebook"></a></li>
+					<li><a href=""><img src="img/redes-sociales/instagram.png" alt="instagram"></a></li>
+					<li><a href=""><img src="img/redes-sociales/tumblr.png" alt="tumblr"></a></li>
+				</ul>
+				<ul class="list-unstyled">
+					<li><a href="">Blog</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- //// -->
+
+<div class="derechos">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12"><small>Todos los derechos reservados Buscarbus 2017</small></div>
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/npm.js"></script>
+<script>    
+	$(function () { $("[data-toggle='tooltip']").tooltip(); }); 
+</script> 
+</body>
+</html>

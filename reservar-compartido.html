@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Reservar compartido</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<!-- //// -->
+
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 marca"><a href="index.html"><h4><img src="img/isotipo.png"> bus<span>car</span>bus</h4></a></div>
+			<div class="col-md-9">
+				<nav class="menu">
+					<ul class="list-inline">
+						<li><a href="index.html">Buscar compartido</a></li>
+						<li><a href="index.html">Buscar autobus</a></li>
+						<li><a href="marcar-trayecto.html">Publicar viaje</a></li>
+						<li><a href="registro-usuario.html">Registarse</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Iniciar sesion <img src="img/iconos/caret.png"></a>
+							<ul class="dropdown-menu" style="border-radius:0px;margin: 0px 0px 0px -4px;border:0px solid #fff;">
+							    <li><input type="text" class="form-control" placeholder="Email"></li>
+							    <li><input type="text" class="form-control" placeholder="Contraseña"></li>          
+							    <li><button type="button" class="btn btn-warning btn-lg btn-block">Iniciar sesion</button></li>       
+							</ul>  
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!-- //// -->
+
+<div class="titular-progreso">
+	<div class="container">
+		<div class="div row">
+			<div class="col-md-2 text-center">
+				<h4>Elije servicio</h4>
+			</div>
+			<div class="col-md-2 text-center">
+				<h4>Buscar ruta</h4>
+			</div>
+			<div class="col-md-2 text-center">
+				<h4>Contactar</h4>
+			</div>
+			<div class="col-md-2 text-center">
+				<h4>Reservar</h4>
+			</div>
+			<div class="col-md-4"></div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+
+<div class="progreso">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2 text-center">
+			   <div class="rect">
+					<h3>1</h3>
+					<small>Compartido - Autobus</small>
+			   </div>			
+			</div>
+			<div class="col-md-2 text-center">
+			   <div class="rect">
+					<h3>2</h3>
+					<small>Origen - Destino</small>
+			   </div>			
+			</div>
+			<div class="col-md-2 text-center">
+			   <div class="rect">
+					<h3>3</h3>
+					<small>Enviar mensaje</small>
+			   </div>			
+			</div>
+			<div class="col-md-2 text-center">
+			   <div class="rect-activo">
+					<h3>4</h3>
+					<small>Confirmar pago</small>
+			   </div>			
+			</div>
+			<div class="col-md-6"></div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+
+<div class="resultados-busqueda">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 text-left"><h6>¡Estas en el ultimo paso para la reserva de tu viaje!</div>
+			<div class="col-md-3"><h6></h6></div>
+			<div class="col-md-3"><h6></h6></div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-3">
+			<div class="resumen-compartido">
+			   <div class="row">
+				   	<div class="panel" style="background-color: #fff;color:#2a7fff;">       
+					   	<div class="panel-heading">         
+						   	<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><strong> <img src="img/iconos/caret.png"> Costo por asiento:  $ 11 </strong></a></h4>
+					   	</div>        
+					   	<div id="collapseFour" class="panel-collapse collapse">          
+					   		<div class="panel-body">
+								<ul class="list-inline">
+									<li>- Aporte a conductor:</li>
+									<li><h4>$ 9</h4></li>
+								</ul>
+								<ul class="list-inline">
+									<li>- Gastos de gestion:</li>
+									<li><h4>$ 2</h4></li>
+								</ul>
+					   		</div>       
+					   	</div>    
+				   	</div>
+			   </div>
+			   <h6>Resumen del viaje</h6>
+			   <div class="row">
+				   	<div class="col-md-3"><h5>Ruta:</h5></div>
+				   	<div class="col-md-9">
+				   		<ul class="list-inline">
+				   			<li><h5>Quito</h5></li>
+				   			<li>→</li>
+				   			<li><h5>Tena</h5></li>
+				   		</ul>
+				   	</div>
+			   </div>
+			   <div class="row">
+				   	<div class="col-md-3"><h5>Fecha:</h5></div>
+				   	<div class="col-md-9">
+				   		<ul class="list-inline">
+				   			<li><h5>11/03/2017</h5></li>
+				   		</ul>
+				   	</div>
+			   </div>
+			   <div class="row">
+				   	<div class="col-md-3"><h5>Hora:</h5></div>
+				   	<div class="col-md-9">
+				   		<ul class="list-inline">
+				   			<li><h5>17:00</h5></li>
+				   		</ul>
+				   	</div>
+			   </div>
+			   <h6>Detalles a tomar en cuenta</h6>
+			   <div class="row">
+				   	<div class="col-md-4"><h5>Salida:</h5></div>
+				   	<div class="col-md-8">
+				   		<ul class="list-inline">
+				   			<li><h5>Justo a tiempo</h5></li>
+				   		</ul>
+				   	</div>
+			   </div>
+			   <div class="row">
+				   	<div class="col-md-4"><h5>Equipaje:</h5></div>
+				   	<div class="col-md-8">
+				   		<ul class="list-inline">
+				   			<li><h5>Mediano</h5></li>
+				   		</ul>
+				   	</div>
+			   </div>
+			   <h6>Vehiculo a compartir</h6>
+			   <div class="row">
+				   	<div class="col-md-4"><h5>Marca:</h5></div>
+				   	<div class="col-md-8">
+				   		<ul class="list-inline">
+				   			<li><h5>Toyota</h5></li>
+				   		</ul>
+				   	</div>
+			   </div>
+			   <div class="row">
+				   	<div class="col-md-4"><h5>Modelo:</h5></div>
+				   	<div class="col-md-8">
+				   		<ul class="list-inline">
+				   			<li><h5>Corolla</h5></li>
+				   		</ul>
+				   	</div>
+			   </div>
+			   <div class="row">
+				   	<div class="col-md-4"><h5>Año:</h5></div>
+				   	<div class="col-md-8">
+				   		<ul class="list-inline">
+				   			<li><h5>2013</h5></li>
+				   		</ul>
+				   	</div>
+			   </div><br>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="row">
+				<div class="col-md-12">
+					<a href="contactar-conductor.html"><h5><img src="img/iconos/caret-vertical.png"> Volver hacer un pregunta al conductor</h5></a>
+				</div>
+			</div>
+		    <!-- /// -->
+			<div class="formulario-pago">
+				<h5>Confirmacion de datos</h5>
+				<div class="row">
+					<div class="col-md-12">
+						Una vez realizado el pago recibiras el movil del conductor
+					</div>
+				</div>
+				<h5>Datos conductor</h5>
+				<div class="row">
+					<div class="col-md-12">
+						¿Con quien vas a compartir tu viaje Quito -Tena?
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						Nombre
+						<h4>Eduardo</h4>
+					</div>
+					<div class="col-md-4">
+						Apellido
+						<h4>Chavez</h4>
+					</div>
+					<div class="col-md-4">
+						Edad
+						<h4>30 años</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						Ciudad
+						<h4>Quito</h4>
+					</div>
+					<div class="col-md-4">
+						Vehiculo	
+						<h4>Automovil</h4>
+					</div>
+					<div class="col-md-4">
+						Asientos disponibles
+						<h4>2</h4>
+					</div>
+				</div>
+				<h5>Datos de usuario (Pasajero)</h5>
+				<div class="row">
+					<div class="col-md-12">
+						Completa los siguentes datos para realizar tu reserva 
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						Nombre
+						<h4>Maria</h4>
+					</div>
+					<div class="col-md-4">
+						Apellido
+						<h4>Cajas</h4>
+					</div>
+					<div class="col-md-4">
+						Ciudad
+						<h4>Ambato</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						C.I
+						<input type="t>ext" class="form-control" placeholder="Cedual de identidad">
+					</div>
+					<div class="col-md-4">
+						Direccion	
+						<input type="t>ext" class="form-control" placeholder="Domicilio">
+					</div>
+					<div class="col-md-4">
+						Asientos a reservar
+						<select class="form-control">
+			    		 <option>1</option>
+			    		 <option>2</option>          
+			    		 <option>3</option>
+			    		 <option>4</option>                 
+			    		</select>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						Si tus datos no estan correctos comunicate con <a href="">servicio al cliente</a> 
+					</div>
+				</div>
+			</div>
+			<!-- /// -->
+		</div>
+
+		<div class="col-md-3">
+			<div class="opiniones-perfil">
+			   <h6>Asientos a reservados</h6>
+			   <div class="row text-center">
+				   	<div class="col-md-12">
+				   		<h2>0</h2><small>plazas</small>
+				   	</div>
+			   </div>
+			   <h6>Recibo</h6>
+			   <div class="row text-center">
+			   	<div class="col-md-12">
+			   		<small>Total a cancelar</small>
+			   		<h2><strong>$ 0</strong></h2>
+			   		<small>Incluye todos los gastos</small>
+			   	</div>
+			   </div>
+			</div>
+			<div class="pago-seguro">
+				<h5><img src="img/iconos/pago-seguro.png"> PAGO SEGURO</h5>
+				<div class="row">
+					<div class="col-md-12">
+						<input class="form-control" type="text" name="" placeholder="Nombre">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<input class="form-control" type="text" name="" placeholder="Numero tarjeta">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<input class="form-control" type="text" name="" placeholder="MM/AA">
+					</div>
+					<div class="col-md-6">
+						<input class="form-control" type="text" name="" placeholder="CVC">
+					</div>
+				</div>
+				<div class="row"><br>
+					<div class="col-md-12">
+						<button type="button" class="btn btn-success btn-lg btn-block"><b>Pagar</b> <span>$ 0</span></button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h6 class="text-center">Tarjetas de credito/debito aceptadas</h6>
+						<ul class="list-inline text-center">
+							<li><img src="img/iconos/tarjetas-credito/visa.png"></li>
+							<li><img src="img/iconos/tarjetas-credito/mastercard.png"></li>
+							<li><img src="img/iconos/tarjetas-credito/discover.png"></li>
+							<li><img src="img/iconos/tarjetas-credito/diners-club.png"></li>
+							<li><img src="img/iconos/tarjetas-credito/amex.png"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<br>
+
+<!-- //// -->
+<footer>
+	<div class="container pie">
+		<div class="row">
+			<div class="col-md-3">
+				<h4>Viajar con buscarbus</h4>
+				<ul class="list-unstyled">
+					<li><a href="">Como compartir vehiculo</a></li>
+					<li><a href="">Como buscar autobus</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Acerca de buscarbus</h4>
+				<ul class="list-unstyled">
+					<li><a href="">Sobre nosotros</a></li>
+					<li><a href="">Empleo</a></li>
+					<li><a href="">Contactos</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Informacion legal</h4>
+				<ul class="list-unstyled">
+					<li><a href="">Condiciones generales de uso</a></li>
+					<li><a href="">Terminos y condiciones</a></li>
+					<li><a href="">Normas de uso</a></li>
+					<li><a href="">Formas de pago</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Social</h4>
+				<ul class="list-inline">
+					<li><a href=""><img src="img/redes-sociales/facebook.png" alt="facebook"></a></li>
+					<li><a href=""><img src="img/redes-sociales/instagram.png" alt="instagram"></a></li>
+					<li><a href=""><img src="img/redes-sociales/tumblr.png" alt="tumblr"></a></li>
+				</ul>
+				<ul class="list-unstyled">
+					<li><a href="">Blog</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- //// -->
+
+<div class="derechos">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12"><small>Todos los derechos reservados Buscarbus 2017</small></div>
+		</div>
+	</div>
+</div>
+
+<script src="https://p1.kushkipagos.com/kushki/kushki/kushki.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/npm.js"></script>
+<script>    
+	$(function () { $("[data-toggle='tooltip']").tooltip(); }); 
+</script> 
+</body>
+</html>

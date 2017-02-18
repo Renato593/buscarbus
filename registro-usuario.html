@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Registro</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/app.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+</head>
+<body>
+
+<!-- //// -->
+
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 marca"><a href="index.html"><h4><img src="img/isotipo.png"> bus<span>car</span>bus</h4></a></div>
+			<div class="col-md-9">
+				<nav class="menu">
+					<ul class="list-inline">
+						<li><a href="index.html">Buscar compartido</a></li>
+						<li><a href="index.html">Buscar autobus</a></li>
+						<li><a href="marcar-trayecto.html">Publicar viaje</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Iniciar sesion <img src="img/iconos/caret.png"></a>
+							<ul class="dropdown-menu" style="border-radius:0px;margin: 0px 0px 0px -4px;border:0px solid #fff;">
+							    <li><input type="text" class="form-control" placeholder="Email"></li>
+							    <li><input type="text" class="form-control" placeholder="Contraseña"></li>          
+							    <li><button type="button" class="btn btn-warning btn-lg btn-block">Iniciar sesion</button></li>       
+							</ul>  
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!-- //// -->
+
+<div class="titular-progreso">
+	<div class="container">
+		<div class="div row">
+			<div class="col-md-2 col-xs-4 text-center">
+				<h4>Nuevo usuario</h4>
+			</div>
+			<div class="col-md-2 col-xs-4 text-center">
+				<h4>Publica tu viaje</h4>
+			</div>
+			<div class="col-md-2 col-xs-4 text-center">
+				<h4>Detalles del viaje</h4>
+			</div>
+			<div class="col-md-6"></div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+
+<div class="progreso">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2 col-xs-4 text-center">
+			   <div class="rect-activo">
+					<h3>1</h3>
+					<small>Registro</small>
+			   </div>			
+			</div>
+			<div class="col-md-2 col-xs-4 text-center">
+			   <div class="rect">
+					<h3>2</h3>
+					<small>Trayecto</small>
+			   </div>			
+			</div>
+			<div class="col-md-2 col-xs-4 text-center">
+			   <div class="rect">
+					<h3>3</h3>
+					<small>Publicar</small>
+			   </div>			
+			</div>
+			<div class="col-md-6"></div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+
+<div class="resultados-busqueda">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 text-left"><h6>¡Para empezar a publicar o reservar viajes necesitas registrarte!</div>
+			<div class="col-md-3"><h6></h6></div>
+			<div class="col-md-3"><h6></h6></div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="formulario-registro">
+			  <h5>Crear cuenta (registro usuario)</h5>
+			  	<div class="row">
+			  		<div class="col-md-12">
+			  			<label class="checkbox-inline">       
+			  			<input type="checkbox" id="inlineCheckbox1" value="option1"> Hombre</label> 
+			  			<label class="checkbox-inline">       
+			  			<input type="checkbox" id="inlineCheckbox1" value="option1"> Mujer </label> 
+			  		</div>
+			  	</div>
+				<div class="row">
+					<div class="col-md-6">
+						Nombre         
+						<input type="text" class="form-control" placeholder="">       
+					</div>
+					<div class="col-md-6">
+						Apellido
+						<input type="text" class="form-control" placeholder="">       
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						Año de nacimiento         
+						<input type="text" class="form-control" placeholder="">       
+					</div>
+					<div class="col-md-6">
+						Email 
+						<input type="text" class="form-control" placeholder="">       
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						Telefono convencional         
+						<input type="text" class="form-control" placeholder="">       
+					</div>
+					<div class="col-md-6">
+						Celular 
+						<input type="text" class="form-control" placeholder="">       
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						Contraseña         
+						<input type="text" class="form-control" placeholder="">       
+					</div>
+					<div class="col-md-6">
+						Confirmar contraseña 
+						<input type="text" class="form-control" placeholder="">       
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="alert alert-warning">
+					<input type="checkbox"> No acepto que Buscarbus me remita comunicaciones comerciales, incluido por medios electrónicos, sobre productos o servicios que puedan resultarme de interés.
+					</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4"></div>
+					<div class="col-md-4"></div>
+					<div class="col-md-4">
+						<button type="button" class="btn btn-success btn-lg btn-block">Registrarse</button>       
+					</div>
+				</div><hr>
+				<div class="row">
+					<div class="col-md-12">
+						<small>Al registrarte con tu e-mail, aceptas nuestros <a href="">Terminos y condiciones</a> asi como las <a href="">Condiciones generales de uso</a>.</small>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="registro-promocion">
+			  <h5>Un poco sobre buscarbus</h5>
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<p>Somos una plataforma web con vision colaborativa en el campo del transporte de pasajeros buscamos la agilidad, comodidad y seguridad de viajeros conectando directamente a autobuses o personas con vehiculos que se dirijan a tu mismo destino y asi tengas las mejores opciones para ese viaje que estas por realizar.</p>
+						<h3>¡Regístrate es GRATIS!</h3><br>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="row">
+				<div class="col-md-12"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+				<h3>Seguridad y confianza</h3>
+					<ul class="list-unstyled">
+						<li>- Equipo de atencion al usuario</li>
+						<li>- Usuarios con perfiles certificados y con opiniones</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6"></div>
+	</div>
+</div><br><br>
+
+<!-- //// -->
+<footer>
+	<div class="container pie">
+		<div class="row">
+			<div class="col-md-3">
+				<h4>Viajar con buscarbus</h4>
+				<ul class="list-unstyled">
+					<li><a href="">Como compartir vehiculo</a></li>
+					<li><a href="">Como buscar autobus</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Acerca de buscarbus</h4>
+				<ul class="list-unstyled">
+					<li><a href="">Sobre nosotros</a></li>
+					<li><a href="">Empleo</a></li>
+					<li><a href="">Contactos</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Informacion legal</h4>
+				<ul class="list-unstyled">
+					<li><a href="">Condiciones generales de uso</a></li>
+					<li><a href="">Terminos y condiciones</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Social</h4>
+				<ul class="list-inline">
+					<li><a href=""><img src="img/redes-sociales/facebook.png" alt="facebook"></a></li>
+					<li><a href=""><img src="img/redes-sociales/instagram.png" alt="instagram"></a></li>
+					<li><a href=""><img src="img/redes-sociales/tumblr.png" alt="tumblr"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- //// -->
+
+<div class="derechos">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12"><small>Todos los derechos reservados Buscarbus 2017</small></div>
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/npm.js"></script>
+
+</body>
+</html>

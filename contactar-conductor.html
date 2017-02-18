@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Contactar conductor</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/app.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+</head>
+<body>
+
+<!-- //// -->
+
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 marca"><a href="index.html"><h4><img src="img/isotipo.png"> bus<span>car</span>bus</h4></a></div>
+			<div class="col-md-9">
+				<nav class="menu">
+					<ul class="list-inline">
+						<li><a href="index.html">Buscar compartido</a></li>
+						<li><a href="index.html">Buscar autobus</a></li>
+						<li><a href="marcar-trayecto.html">Publicar viaje</a></li>
+						<li><a href="registro-usuario.html">Registarse</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Iniciar sesion <img src="img/iconos/caret.png"></a>
+							<ul class="dropdown-menu" style="border-radius:0px;margin: 0px 0px 0px -4px;border:0px solid #fff;">
+							    <li><input type="text" class="form-control" placeholder="Email"></li>
+							    <li><input type="text" class="form-control" placeholder="Contraseña"></li>          
+							    <li><button type="button" class="btn btn-warning btn-lg btn-block">Iniciar sesion</button></li>       
+							</ul>  
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+
+
+<!-- //// -->
+
+<div class="titular-progreso">
+	<div class="container">
+		<div class="div row">
+			<div class="col-md-2 text-center">
+				<h4>Elije servicio</h4>
+			</div>
+			<div class="col-md-2 text-center">
+				<h4>Buscar ruta</h4>
+			</div>
+			<div class="col-md-2 text-center">
+				<h4>Contactar</h4>
+			</div>
+			<div class="col-md-2 text-center">
+				<h4>Reservar</h4>
+			</div>
+			<div class="col-md-4"></div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+
+<div class="progreso">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2 text-center">
+			   <div class="rect">
+					<h3>1</h3>
+					<small>Compartido - Autobus</small>
+			   </div>			
+			</div>
+			<div class="col-md-2 text-center">
+			   <div class="rect">
+					<h3>2</h3>
+					<small>Origen - Destino</small>
+			   </div>			
+			</div>
+			<div class="col-md-2 text-center">
+			   <div class="rect-activo">
+					<h3>3</h3>
+					<small>Enviar mensaje</small>
+			   </div>			
+			</div>
+			<div class="col-md-2 text-center">
+			   <div class="rect">
+					<h3>4</h3>
+					<small>Realizar pago</small>
+			   </div>			
+			</div>
+			<div class="col-md-6"></div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+
+<div class="resultados-busqueda">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 text-left"><h6>¡Siempre es recomendable enviar un <a href="">mensaje publico</a> al conductor antes de reservar un asiento!</div>
+			<div class="col-md-3"><h6></h6></div>
+			<div class="col-md-3"><h6></h6></div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-3">
+			<div class="resumen-compartido">
+			   <div class="row">
+				   	<div class="panel" style="background-color: #fff;color:#2a7fff;">       
+					   	<div class="panel-heading">         
+						   	<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><strong> <img src="img/iconos/caret.png"> Costo por asiento:  $ 11 </strong></a></h4>
+					   	</div>        
+					   	<div id="collapseFour" class="panel-collapse collapse">          
+					   		<div class="panel-body">
+								<ul class="list-inline">
+									<li>- Aporte a conductor:</li>
+									<li><h4>$ 9</h4></li>
+								</ul>
+								<ul class="list-inline">
+									<li>- Gastos de gestion:</li>
+									<li><h4>$ 2</h4></li>
+								</ul>
+					   		</div>       
+					   	</div>    
+				   	</div>
+			   </div>
+			   <h6>Resumen del viaje</h6>
+			   <div class="row">
+				   	<div class="col-md-3"><h5>Ruta:</h5></div>
+				   	<div class="col-md-9">
+				   		<ul class="list-inline">
+				   			<li><h5>Quito</h5></li>
+				   			<li>→</li>
+				   			<li><h5>Tena</h5></li>
+				   		</ul>
+				   	</div>
+			   </div>
+			   <div class="row">
+				   	<div class="col-md-3"><h5>Fecha:</h5></div>
+				   	<div class="col-md-9">
+				   		<ul class="list-inline">
+				   			<li><h5>11/03/2017</h5></li>
+				   		</ul>
+				   	</div>
+			   </div>
+			   <div class="row">
+				   	<div class="col-md-3"><h5>Hora:</h5></div>
+				   	<div class="col-md-9">
+				   		<ul class="list-inline">
+				   			<li><h5>17:00</h5></li>
+				   		</ul>
+				   	</div>
+			   </div>
+			   <h6>Detalles a tomar en cuenta</h6>
+			   <div class="row">
+				   	<div class="col-md-4"><h5>Salida:</h5></div>
+				   	<div class="col-md-8">
+				   		<ul class="list-inline">
+				   			<li><h5>Justo a tiempo</h5></li>
+				   		</ul>
+				   	</div>
+			   </div>
+			   <div class="row">
+				   	<div class="col-md-4"><h5>Equipaje:</h5></div>
+				   	<div class="col-md-8">
+				   		<ul class="list-inline">
+				   			<li><h5>Mediano</h5></li>
+				   		</ul>
+				   	</div>
+			   </div>
+			   <h6>Vehiculo a compartir</h6>
+			   <div class="row">
+				   	<div class="col-md-4"><h5>Marca:</h5></div>
+				   	<div class="col-md-8">
+				   		<ul class="list-inline">
+				   			<li><h5>Toyota</h5></li>
+				   		</ul>
+				   	</div>
+			   </div>
+			   <div class="row">
+				   	<div class="col-md-4"><h5>Modelo:</h5></div>
+				   	<div class="col-md-8">
+				   		<ul class="list-inline">
+				   			<li><h5>Corolla</h5></li>
+				   		</ul>
+				   	</div>
+			   </div>
+			   <div class="row">
+				   	<div class="col-md-4"><h5>Año:</h5></div>
+				   	<div class="col-md-8">
+				   		<ul class="list-inline">
+				   			<li><h5>2013</h5></li>
+				   		</ul>
+				   	</div>
+			   </div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="row">
+				<div class="col-md-12">
+					<a href="busqueda-compartido.html"><h5><img src="img/iconos/caret-vertical.png"> Volver a los resultados</h5></a>
+				</div>
+			</div>
+		    <!-- /// -->
+			<div class="tarjeta-perfil">
+				<div class="media">    
+					<a class="pull-left" href="perfil-usuario.html">       
+					<img class="media-object" src="img/usuarios/usuario_1.png" alt="Media Object" width="70px;" height="70px;">    
+					</a>    
+					<div class="media-body">       
+						<h4 class="media-heading">Eduardo Chavez <small>(Quito - Tena)</small><br><small><a href="perfil-usuario.html">ver perfil</a></small> </h4>       
+						Voy al tena a visitar a un familiar y puedo dejarles cerca del terminal terrestre de la ciudad. Salgo desde el estadio olimpico Atahualpa.    
+					</div> 
+				</div><hr> 
+				<div class="row">
+					<div class="col-md-6">
+						<span class="label label-success">5 viajes</span>
+						<span class="label label-warning">5 opiniones</span>
+					</div>
+					<div class="col-md-6 text-right"><a href="">Enviar mensaje publico</a></div>
+				</div>
+			</div>
+			<!-- /// -->
+			<div class="row">
+				<div class="col-md-12">
+					<h5>Preguntas al conductor</h5>
+				</div>
+			</div>
+			<!-- /// -->
+			<div class="contenedor-comentarios">
+			<!-- /// -->
+				<div class="media">    
+					<a class="pull-left" href="#">       
+					<img class="media-object" src="img/usuarios/usuario_1.png" alt="Media Object" width="70px;" height="70px;">    
+					</a>    
+					<div class="media-body">       
+						<h4 class="media-heading">Alejandra Maldonado <small>(Quito - Tena)</small></h4>       
+						Voy al tena a visitar a un familiar y puedo dejarles cerca del terminal terrestre de la ciudad. Salgo desde el estadio olimpico Atahualpa.    
+					</div> 
+				</div><br>
+				<div class="row">
+					<div class="col-md-6">
+						<ul class="list-inline">
+							<li><small>19:34</small></li>
+							<li><small>17/03/2017</small></li>
+						</ul>
+					</div>
+					<div class="col-md-6"><a href=""></a></div>
+				</div>
+			<!--/// -->
+			<!-- /// -->
+				<div class="media">    
+					<a class="pull-left" href="#">       
+					<img class="media-object" src="img/usuarios/usuario_1.png" alt="Media Object" width="70px;" height="70px;">    
+					</a>    
+					<div class="media-body">       
+						<h4 class="media-heading">Rocio Cajas <small>(Quito - Tena)</small></h4>       
+						Voy al tena a visitar a un familiar y puedo dejarles cerca del terminal terrestre de la ciudad. Salgo desde el estadio olimpico Atahualpa.    
+					</div> 
+				</div><br>
+				<div class="row">
+					<div class="col-md-6">
+						<ul class="list-inline">
+							<li><small>19:34</small></li>
+							<li><small>17/03/2017</small></li>
+						</ul>
+					</div>
+					<div class="col-md-6"><a href=""></a></div>
+				</div><hr>
+			<!--/// -->
+				<div class="row">
+					<div class="col-md-12">
+						<textarea class="form-control" rows="3" placeholder="Enviale un mensaje publico al conductor sobre dudas que tengas sobre el viaje"></textarea> 
+					</div>
+				</div><br>
+				<div class="row">
+					<div class="col-md-8">
+						<small>Recibiras el numero del conductor despues de reservar pagando online.</small>
+					</div>
+					<div class="col-md-4">
+						<button type="button" class="btn btn-success btn-lg btn-block">Enviar mensaje</button>
+					</div>
+				</div><br>
+			</div><br>
+		</div>
+
+		<div class="col-md-3">
+			<div class="opiniones-perfil">
+			   <h6>Asientos disponibles</h6>
+			   <div class="row text-center">
+				   	<div class="col-md-6">
+				   		<h2>0</h2><small>Ocupados</small>
+				   	</div>
+				   	<div class="col-md-6">
+				   		<h2>4</h2><small>Disponibles</small>
+				   	</div>
+			   </div>
+			   <div class="row">
+			    	<div class="col-md-12">
+			    		<a href="reservar-compartido.html" class="btn btn-warning btn-lg btn-block">Reservar ahora</a>
+			    	</div>
+			   </div><br>
+			   <h6><img src="img/isotipo.png" width="30;" height="26px;"> Resumen perfil</h6>
+			   <div class="row">
+				   	<div class="col-md-4">
+				   		<img class="media-object" src="img/usuarios/usuario_1.png" alt="Media Object" width="72px;" height="72px;">
+				   	</div>
+				   	<div class="col-md-8 text-left">
+				   		<ul class="list-unstyled">
+				   			<li><h5><strong>Eduardo Chavez</strong></h5></li>
+				   			<li><small>30 años</small></li>
+				   			<li><small>Cuenca</small></li>
+				   		</ul>
+				   	</div>
+			   </div>
+			   <h5 class="text-center">Le gusta cuando viaja</h5>
+			   <div class="row">
+				   	<div class="col-md-12">
+						<span class="label label-default">Escuchar musica</span>
+						<span class="label label-default">Conversar</span>
+						<span class="label label-default">Parar a comer</span>
+						<span class="label label-default">Llegar a tiempo</span>
+				   	</div>
+			   </div>
+			   <h6><img src="img/isotipo.png" width="30;" height="26px;"> Opinion sobre Eduardo</h6>
+			   <div class="row">
+				   	<div class="col-md-3">
+				   		<img class="media-object" src="img/usuarios/usuario_1.png" alt="Media Object" width="50px;" height="50px;">
+				   	</div>
+				   	<div class="col-md-9">
+				   		<small><strong>Maria Cajas</strong></small><br>
+				   		<small>28 años</small>
+				   	</div>
+			   </div>
+			   <div class="row">
+			   		<div class="col-md-12">
+			   			<small>Voy al tena a visitar a un familiar y puedo dejarles cerca del terminal terrestre de la ciudad.</small>
+			   		</div>
+			   </div>
+			</div>
+		</div>
+	</div>
+</div><br>
+
+<!-- //// -->
+<footer>
+	<div class="container pie">
+		<div class="row">
+			<div class="col-md-3">
+				<h4>Viajar con buscarbus</h4>
+				<ul class="list-unstyled">
+					<li><a href="">Como compartir vehiculo</a></li>
+					<li><a href="">Como buscar autobus</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Acerca de buscarbus</h4>
+				<ul class="list-unstyled">
+					<li><a href="">Sobre nosotros</a></li>
+					<li><a href="">Empleo</a></li>
+					<li><a href="">Contactos</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Informacion legal</h4>
+				<ul class="list-unstyled">
+					<li><a href="">Condiciones generales de uso</a></li>
+					<li><a href="">Terminos y condiciones</a></li>
+					<li><a href="">Normas de uso</a></li>
+					<li><a href="">Formas de pago</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Social</h4>
+				<ul class="list-inline">
+					<li><a href=""><img src="img/redes-sociales/facebook.png" alt="facebook"></a></li>
+					<li><a href=""><img src="img/redes-sociales/instagram.png" alt="instagram"></a></li>
+					<li><a href=""><img src="img/redes-sociales/tumblr.png" alt="tumblr"></a></li>
+				</ul>
+				<ul class="list-unstyled">
+					<li><a href="">Blog</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- //// -->
+
+<div class="derechos">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12"><small>Todos los derechos reservados Buscarbus 2017</small></div>
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/npm.js"></script>
+<script>    
+	$(function () { $("[data-toggle='tooltip']").tooltip(); }); 
+</script> 
+</body>
+</html>

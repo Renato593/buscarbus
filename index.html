@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Buscarbus</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/app.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+</head>
+<body>
+
+<!-- //// -->
+
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 marca"><a href="index.html"><h4><img src="img/isotipo.png"> bus<span>car</span>bus</h4></a></div>
+			<div class="col-md-9">
+				<nav class="menu">
+					<ul class="list-inline">
+						<li><a href="marcar-trayecto.html">Publicar viaje</a></li>
+						<li><a href="registro-usuario.html">Registrarse</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Iniciar sesion <img src="img/iconos/caret.png"></a>
+							<ul class="dropdown-menu" style="border-radius:0px;margin: 0px 0px 0px -4px;border:0px solid #fff;">
+							    <li><input type="text" class="form-control" placeholder="Email"></li>
+							    <li><input type="text" class="form-control" placeholder="Contraseña"></li>          
+							    <li><button type="button" class="btn btn-warning btn-lg btn-block">Iniciar sesion</button></li>       
+							</ul>  
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!-- //// -->
+
+<div class="titular-progreso">
+	<div class="container">
+		<div class="div row">
+			<div class="col-md-2 text-center">
+				<h4>Elije servicio</h4>
+			</div>
+			<div class="col-md-10"></div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+
+<div class="progreso">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2 text-center">
+			   <div class="rect-activo">
+					<h3>1</h3>
+					<small>Compartido - Autobus</small>
+			   </div>			
+			</div>
+			<div class="col-md-10"></div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+
+<div class="resultados-busqueda">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 text-left"><h6>¡Empieza a vivir una nueva experiencias en viajes!</div>
+			<div class="col-md-3"><h6></h6></div>
+			<div class="col-md-3"><h6></h6></div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+
+<div class="fondo">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+				<h1>Encuentra el autobus o vehiculo compartido ideal para tu viaje</h1>
+			</div>
+			<div class="col-md-3"></div>
+		</div><br>
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-12">
+						<ul id="myTab" class="nav nav-tabs">    
+							<li class="active">       
+							<a href="#compartido" data-toggle="tab"><b><img src="img/iconos/icono-vehiculo.png"> Buscar compartido</b></a>    
+							</li>    
+							<li><a href="#autobus" data-toggle="tab"><b><img src="img/iconos/icono-autobus.png"> Buscar autobus</b></a></li>    
+						</ul>
+						<div id="myTabContent" class="tab-content">    
+							<div class="tab-pane fade in active" id="compartido">       
+							<br><div class="row">
+								   	<div class="col-md-4">
+								   		<input type="text" class="form-control" placeholder="Ciudad de Origen">
+								   	</div>
+								   	<div class="col-md-4">
+								   		<input type="text" class="form-control" placeholder="Ciudad de Destino">
+								   	</div>
+								   	<div class="col-md-4">
+								   		<a href="busqueda-compartido.html" class="btn btn-primary btn-md btn-block">Buscar compartido</a> 
+								   	</div>
+								</div>   
+							</div>    
+							<div class="tab-pane fade" id="autobus">       
+							<br><div class="row">
+								   	<div class="col-md-4">
+								   		<input type="text" class="form-control" placeholder="Ciudad de Origen">
+								   	</div>
+								   	<div class="col-md-4">
+								   		<input type="text" class="form-control" placeholder="Ciudad de Destino">
+								   	</div>
+								   	<div class="col-md-4">
+								   		<a href="busqueda-compartido" class="btn btn-primary btn-md btn-block">Buscar autobus</a> 
+								   	</div>
+								</div>    
+							</div>    
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3"></div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+
+<!-- <div class="subtitulo">
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-md-12">
+			<h2>¿Vas a viajar con tu vehiculo fuera de la ciudad?</h2>
+			<h4>Comparte tus asientos libres y gana ingresos extras</h4><br>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-4"><button type="button" class="btn btn-danger btn-lg btn-block">Compartir vehiculo</button></div>
+			<div class="col-md-4"></div>
+		</div>
+	</div>
+</div> -->
+
+<!-- //// -->
+
+<!-- <div class="container text-center">
+	<div class="row">
+		<div class="col-md-3">
+		  <h3>Viaja seguro</h3>
+		  <p>Por tu seguridad buscarbus cuenta con un sistema de verificacion de perfiles de usuario que comparten sus vehiculos en la aplicacion</p>
+		</div>
+		<div class="col-md-3">
+		  <h3>Elije como viajar</h3>
+		  <p>Buscarbus te ayuda a de encontrar el medio de transporte que mas se acomode a tu necesidades y exijencias</p>
+		</div>
+		<div class="col-md-3"> 
+		  <h3>Elijes con quien viajar</h3>
+		  <p>Buscarbus posee una base que cada dia se incremente asi que por general tendras varias opciones para el mismo destino</p>
+		</div>
+		<div class="col-md-3">
+		  <h3>Cientos de destinos</h3>
+		  <p>Buscarbus te ofrece la mejor oferta en linea de autobes y vehiculos compartidos para llegar a ese lugar que tienes en mente</p>
+		</div>
+	</div>
+</div> -->
+
+<!-- //// -->
+
+<!-- <div class="container">
+	<div class="row">
+		<div class="col-md-3">
+			<div class="row ticket">
+				<div class="col-md-6">
+					<a href="">
+						<h3>Quito</h3>
+						<h3>Tena</h3>
+					</a>
+				</div>
+				<div class="col-md-6">
+					<h5 class="text-right">desde</h5>
+					<h2 class="text-right">$ 9</h2>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="row ticket">
+				<div class="col-md-6">
+					<a href="">
+						<h3>Quito</h3>
+						<h3>Cuenca</h3>
+					</a>
+				</div>
+				<div class="col-md-6">
+					<h5 class="text-right">desde</h5>
+					<h2 class="text-right">$ 17</h2>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="row ticket">
+				<div class="col-md-6">
+					<a href="">
+						<h3>Quito</h3>
+						<h3>Guayaquil</h3>
+					</a>
+				</div>
+				<div class="col-md-6">
+					<h5 class="text-right">desde</h5>
+					<h2 class="text-right">$ 12</h2>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="row ticket">
+				<div class="col-md-6">
+					<a href="">
+						<h3>Quito</h3>
+						<h3>Riobamba</h3>
+					</a>
+				</div>
+				<div class="col-md-6">
+					<h5 class="text-right">desde</h5>
+					<h2 class="text-right">$ 10</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><hr>
+ -->
+<!-- //// -->
+
+<!-- <div class="tarjeta-compartir">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-5">
+				<img src="img/vehiculo-compartido.jpg" width="100%">
+			</div>
+			<div class="col-md-3"><br>
+				<h4>Empieza a compatir tu vehiculo hoy mismo</h4>
+				<p>Comparte tu vehiculo en buscarbus.<br>Es facil y gratuito.</p><br>
+				<button type="button" class="btn btn-danger btn-lg btn-block">Compartir vehiculo</button>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div>
+</div> -->
+
+<!-- //// -->
+
+<!-- <div class="instrucciones">
+	<div class="container">
+		<div class="row text-center">
+		<h2>¿Comó funciona buscarbus?</h2>
+			<div class="col-md-4">
+			   <h3>¿Vas a viajar?</h3>
+		       <p>Encuentra usuarios que van al mismo destino o un boleto de autobus</p>
+			</div>
+			<div class="col-md-4">
+				<h3>Confirmas el viajes</h3>
+		       <p>Los pasajeros pueden reservan los asientos libres online</p>
+			</div>
+			<div class="col-md-4">
+				<h3>A viajar</h3>
+		       <p>Compartes el vehiculos y dejas tu opinion despues del viaje</p>
+			</div>
+		</div>
+	</div>
+</div> -->
+
+<!-- //// -->
+
+<!-- <div class="numeros">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<span class="glyphicon glyphicon-user"></span>
+				<h3>38</h3>
+				<small>Miembros</small>
+			</div>
+			<div class="col-md-3">
+				<span class="glyphicon glyphicon-user"></span>
+				<h3>138</h3>
+				<small>Vehiculos que esta siendo compartidos</small>
+			</div>
+			<div class="col-md-3">
+				<span class="glyphicon glyphicon-user"></span>
+				<h3>438</h3>
+				<small>Autobuses</small>
+			</div>
+			<div class="col-md-3">
+				<span class="glyphicon glyphicon-user"></span>
+				<h3>318</h3>
+				<small>Destinos</small>
+			</div>
+		</div>
+	</div>
+</div> -->
+
+<!-- //// -->
+
+<!-- <div class="blog">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="thumbnail">
+					<img src="img/blog/destino.jpg" width="100%">
+				</div>
+				<div class="caption">
+					<h3>Destino</h3>
+					<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+					<a href="#" class="btn btn-primary" role="button">Leer mas</a> 
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="thumbnail">
+					<img src="img/blog/cultura.jpg" width="100%">
+				</div>
+				<div class="caption">
+					<h3>Cultura</h3>
+					<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+					<a href="#" class="btn btn-primary" role="button">Leer mas</a> 
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="thumbnail">
+					<img src="img/blog/gastronomia.jpg" width="100%">
+				</div>
+				<div class="caption">
+					<h3>Gastronomia</h3>
+					<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+					<a href="#" class="btn btn-primary" role="button">Leer mas</a> 
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="thumbnail">
+					<img src="img/blog/aventura.jpg" width="100%">
+				</div>
+				<div class="caption">
+					<h3>Aventura</h3>
+					<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+					<a href="#" class="btn btn-primary" role="button">Leer mas</a> 
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+<!-- /// -->
+
+<footer>
+	<div class="container pie">
+		<div class="row">
+			<div class="col-md-3">
+				<h4>Viajar con buscarbus</h4>
+				<ul class="list-unstyled">
+					<li><a href="">Como compartir vehiculo</a></li>
+					<li><a href="">Como buscar autobus</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Acerca de buscarbus</h4>
+				<ul class="list-unstyled">
+					<li><a href="">Sobre nosotros</a></li>
+					<li><a href="">Empleo</a></li>
+					<li><a href="">Contactos</a></li>
+				</ul>
+				<h4>Formas de pago</h4>
+				<ul class="list-inline">
+					<li><img src="img/iconos/tarjetas-credito/visa.png"></li>
+					<li><img src="img/iconos/tarjetas-credito/mastercard.png"></li>
+					<li><img src="img/iconos/tarjetas-credito/discover.png"></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Informacion legal</h4>
+				<ul class="list-unstyled">
+					<li><a href="">Condiciones generales de uso</a></li>
+					<li><a href="">Terminos y condiciones</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Social</h4>
+				<ul class="list-inline">
+					<li><a href=""><img src="img/redes-sociales/facebook.png" alt="facebook"></a></li>
+					<li><a href=""><img src="img/redes-sociales/instagram.png" alt="instagram"></a></li>
+					<li><a href=""><img src="img/redes-sociales/tumblr.png" alt="tumblr"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- //// -->
+
+<div class="derechos">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12"><small>Todos los derechos reservados Buscarbus 2017</small></div>
+		</div>
+	</div>
+</div>
+<script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDW_yXNzQ_cJk7y1YY1Ah9q_Zs_O00Znao",
+    authDomain: "buscarbus-b50f1.firebaseapp.com",
+    databaseURL: "https://buscarbus-b50f1.firebaseio.com",
+    storageBucket: "buscarbus-b50f1.appspot.com",
+    messagingSenderId: "620270610879"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/npm.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Admin</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/app.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+</head>
+<body>
+
+<!-- //// -->
+
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3"><h4><img src="img/isotipo.png"> bus<span>car</span>bus</h4></div>
+			<div class="col-md-9">
+				<nav class="menu">
+					<ul class="list-inline">
+						<li><a href="publicar-viaje.html">Publicar viaje</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Bienvenido <img src="img/iconos/caret.png"></a>
+							<ul class="dropdown-menu" style="margin: 0px 0px 0px -90px; border: 0px solid #fff;border-radius: 0px;">
+								 <h5><img class="media-object" src="img/usuarios/usuario_1.png" alt="Media Object" width="25px;" height="25px;"><br> Renato Maigua</h5>
+							     <h6><a href="#">Perfil</a></h6>                   
+							     <h6><a href="#">Viajes</a></h6>                   
+							     <h6><a href="#">Opiniones</a></h6>                                      
+							     <h6><a href="#">Mensajes</a> <span class="badge pull-right">3</span> </h6>
+							     <h6 class="divider"></h6>
+							     <h6><a href="#">Cerrar sesion</a></h6>                        
+							</ul>  
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!-- //// -->
+
+<div class="titular-progreso">
+	<div class="container">
+		<div class="div row">
+			<div class="col-md-6">
+				<h5>¡Vive un nueva experiencia en viajes!</h5>
+			</div>	
+			<div class="col-md-6"></div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+
+<!-- <div class="progreso">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h5>¡Vive un nueva experiencia en viajes!</h5>			
+			</div>
+			<div class="col-md-6"></div>
+		</div>
+	</div>
+</div>
+ -->
+<!-- //// -->
+
+<div class="resultados-busqueda">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 text-left"><h6>Lues 30 de Enero del 2017</h6></div>
+			<div class="col-md-6"></div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-3">
+			<div class="perfil-izq">
+			   <h6>Perfil Publico</h6>
+			   <div class="row text-center">
+				   	<div class="col-md-12">
+				   		 <img class="media-object" src="img/usuarios/usuario_1.png" alt="Media Object" width="220px;" height="220px;">
+				   	</div>
+			   </div>
+			   <h6>Viajes realizados</h6>
+			   <div class="row">
+			   		<div class="col-md-12">
+					   	<ul class="list-unstyled">
+					   		<li>Quito - Guayaquil <small>(Compartido)</small></li>
+					   		<li>Tena - Guayaquil <small>(Autobus)</small></li>
+					   		<li>Ambato - Baños <small>(Autobus)</small></li>
+					   	</ul>
+					</div>   	
+			   </div>
+			   <h6>Viajes compartidos</h6>
+			   <div class="row">
+			   	<div class="col-md-12">
+			   		<ul class="list-unstyled">
+			   			<li>Quito - Machala</li>
+			   			<li>Baños - Tena</li>
+			   		</ul>
+			   	</div>
+			   </div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<!-- /// -->
+			<div class="tarjeta-usuario">
+				<div class="row">
+					<div class="col-md-12">
+						<img src="css/img/viajes.jpg" alt="" width="100%;">
+					</div>
+				</div>
+			</div>
+				<div class="row">
+					<div class="col-md-6">
+						<h3>Renato Maigua</h3>
+						<small>Biografia</small>
+					</div>
+				</div>
+			<div class="perfil-usuario">
+				<div class="row">
+					<div class="col-md-12">
+						<p id="bio">Somos una plataforma web con vision colaborativa en el campo del transporte de pasajeros buscamos la agilidad, comodidad y seguridad de viajeros conectando directamente a autobuses o personas con vehiculos que se dirijan a tu mismo destino y asi tengas las mejores opciones para ese viaje que estas por realizar.</p>
+					</div>
+				</div>
+			</div>
+			<!-- /// -->
+		</div>
+		<div class="col-md-3">
+			<div class="perfi-der">
+			   <h6>Realizar una busqueda</h6>
+			   <div class="row">
+				   	<div class="col-md-12">
+				   		<input type="text" class="form-control" placeholder="Ciudad de origen">
+				   	</div>
+			   </div>
+			   <div class="row">
+				   	<div class="col-md-12">
+				   		<input type="text" class="form-control" placeholder="Ciudad de Destino">
+				   	</div>
+			   </div>
+			   <div class="row">
+				   	<div class="col-md-12">
+				   		<a href="busqueda-compartido.html" class="btn btn-primary btn-lg btn-block">Buscar compartido</a>
+				   	</div>
+			   </div><br>
+			   <div class="row">
+				   	<div class="col-md-12">
+				   		<input type="text" class="form-control" placeholder="Ciudad de origen">
+				   	</div>
+			   </div>
+			   <div class="row">
+				   	<div class="col-md-12">
+				   		<input type="text" class="form-control" placeholder="Ciudad de Destino">
+				   	</div>
+			   </div>
+			   <div class="row">
+				   	<div class="col-md-12">
+				   		<button type="button" class="btn btn-primary btn-lg btn-block">Buscar autobus</button>
+				   	</div>
+			   </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+<footer>
+	<div class="container pie">
+		<div class="row">
+			<div class="col-md-3">
+				<h4>Viajar con buscarbus</h4>
+				<ul class="list-unstyled">
+					<li><a href="">Como compartir vehiculo</a></li>
+					<li><a href="">Como buscar autobus</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Acerca de buscarbus</h4>
+				<ul class="list-unstyled">
+					<li><a href="">Sobre nosotros</a></li>
+					<li><a href="">Empleo</a></li>
+					<li><a href="">Contactos</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Informacion legal</h4>
+				<ul class="list-unstyled">
+					<li><a href="">Condiciones generales de uso</a></li>
+					<li><a href="">Terminos y condiciones</a></li>
+					<li><a href="">Normas de uso</a></li>
+					<li><a href="">Formas de pago</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Social</h4>
+				<ul class="list-inline">
+					<li><a href=""><img src="img/redes-sociales/facebook.png" alt="facebook"></a></li>
+					<li><a href=""><img src="img/redes-sociales/instagram.png" alt="instagram"></a></li>
+					<li><a href=""><img src="img/redes-sociales/tumblr.png" alt="tumblr"></a></li>
+				</ul>
+				<ul class="list-unstyled">
+					<li><a href="">Blog</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- //// -->
+
+<div class="derechos">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12"><small>Todos los derechos reservados Buscarbus 2017</small></div>
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/npm.js"></script>
+<script>    
+	$(function () { $("[data-toggle='tooltip']").tooltip(); }); 
+</script> 
+</body>
+</html>

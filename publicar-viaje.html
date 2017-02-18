@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Publicar viaje</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/app.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+</head>
+<body>
+
+<!-- //// -->
+
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 marca"><a href="index.html"><h4><img src="img/isotipo.png"> bus<span>car</span>bus</h4></a></div>
+			<div class="col-md-9">
+				<nav class="menu">
+					<ul class="list-inline">
+						<li><a href="index.html">Buscar compartido</a></li>
+						<li><a href="index.html">Buscar autobus</a></li>
+						<li><a href="registro-usuario.html">Registrarse</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Iniciar sesion <img src="img/iconos/caret.png"></a>
+							<ul class="dropdown-menu" style="border-radius:0px;margin: 0px 0px 0px -4px;border:0px solid #fff;">
+							    <li><input type="text" class="form-control" placeholder="Email"></li>
+							    <li><input type="text" class="form-control" placeholder="Contraseña"></li>          
+							    <li><button type="button" class="btn btn-warning btn-lg btn-block">Iniciar sesion</button></li>       
+							</ul>  
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!-- //// -->
+
+<div class="titular-progreso">
+	<div class="container">
+		<div class="div row">
+			<div class="col-md-2 col-xs-4 text-center">
+				<h4>Nuevo usuario</h4>
+			</div>
+			<div class="col-md-2 col-xs-4 text-center">
+				<h4>Publica tu viaje</h4>
+			</div>
+			<div class="col-md-2 col-xs-4 text-center">
+				<h4>Detalles del viaje</h4>
+			</div>
+			<div class="col-md-6"></div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+
+<div class="progreso">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2 col-xs-4 text-center">
+			   <div class="rect">
+					<h3>1</h3>
+					<small>Registro</small>
+			   </div>			
+			</div>
+			<div class="col-md-2 col-xs-4 text-center">
+			   <div class="rect">
+					<h3>2</h3>
+					<small>Trayecto</small>
+			   </div>			
+			</div>
+			<div class="col-md-2 col-xs-4 text-center">
+			   <div class="rect-activo">
+					<h3>3</h3>
+					<small>Publicar</small>
+			   </div>			
+			</div>
+			<div class="col-md-6"></div>
+		</div>
+	</div>
+</div>
+
+<!-- //// -->
+<div class="resultados-busqueda">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9 text-left"><h6>¡Antes de publicar tu viaje brinda mas detalles a los usuarios como: precio, equipaje, asientos disponibles, etc.!</div>
+			<div class="col-md-3"><h6></h6></div>
+		</div>
+	</div>
+</div>
+<!-- //// -->
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="formulario-publicar-2">
+			  <h5>Importe por Asiento</h5>
+				<div class="row">
+					<div class="col-md-6">
+						Destino
+						<ul class="list-inline">
+							<li><h4>Quito →</h4></li>
+							<li><h4>Guayaquil</h4></li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+					    Importe (precio)
+						<div class="input-group">          
+						<span class="input-group-addon">$</span>          
+						<input type="text" class="form-control" placeholder="Precio por asiento">       
+						</div>  
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="alert alert-info alert-dismissable">    
+						<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>    
+						Para el dia y la hora en que viajas tendras mas pasajeros con un importe de $ <strong>7</strong>
+						</div> 
+					</div>
+				</div>
+			    <div class="row">
+			    	<div class="col-md-6">
+						<ul class="list-inline">
+							<li><h4>Asientos disponibles</h4></li>
+						</ul>
+			    	</div>
+			    	<div class="col-md-6">
+						<div class="input-group">          
+						<span class="input-group-addon">#</span>          
+						<input type="text" class="form-control" placeholder="Ej. 1, 2, 3 , etc.">       
+						</div>
+			    	</div>
+			    </div>	
+			    <h5>Detalles</h5>
+			    <div class="row">
+			    	<div class="col-md-12">
+			    		<h6>Añade mas detalles sobre tu viaje asi los pasajeros no tendran tantas preguntas antes de reservar</h6>
+			    		 <div class="form-group">        
+			    		 <textarea class="form-control" rows="3" placeholder="Ejemplo: Voy al tena a visitar a un familiar y puedo dejarles cerca del terminal terrestre de la ciudad. Salgo desde el estadio olimpico Atahualpa si desean pueden llevar su musica para escuchar durante el viaje."></textarea>   
+			    		 <h6>No escribas tus datos de contacto. Los pasajeros que reserven recibiran tu movil (<a href="">Ver las normas</a>)</h6>
+			    		 </div> 
+			    	</div>
+			    </div>
+			    <div class="row">
+			    	<div class="div col-md-6">
+			    		<h4>Equipaje maximo</h4>
+			    	</div>
+			    	<div class="div col-md-6">
+			    		 <select class="form-control">
+			    		 <option>Pequeño</option>
+			    		 <option>Mediano</option>          
+			    		 <option>Grande</option>                 
+			    		 </select> 
+			    	</div>
+			    </div>
+			    <div class="row">
+			    	<div class="div col-md-6">
+			    		<h4>Flexibilidad en la salida
+							<a href="#" data-toggle="tooltip" data-placement="top" title="Tiempo de espera desde la hora fijada">?</a>  
+			    		</h4>
+			    	</div>
+			    	<div class="div col-md-6">
+			    		 <select class="form-control">
+			    		 <option>Justo a tiempo</option>
+			    		 <option>En +/- 15min</option>          
+			    		 <option>En +/- 30min</option>
+			    		 <option>En +/- 45min</option>                 
+			    		 </select> 
+			    	</div>
+			    </div>
+			    <div class="row">
+			    	<div class="div col-md-6">
+			    		<h4>Desvio posible</h4>
+			    	</div>
+			    	<div class="div col-md-6">
+			    		 <select class="form-control">
+			    		 <option>15 min max</option>
+			    		 <option>30 min max</option>          
+			    		 <option>El que necesite el pasajero</option>                 
+			    		 </select> 
+			    	</div>
+			    </div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="ruta-viaje-2">
+			  <h5>Ruta de viaje</h5>
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="mapa-2"></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h5>Resumen del viaje</h5>
+						<ul class="list-inline">
+							<li><strong>Quito →</strong></li>
+							<li><strong>Guayaquil</strong></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<ul class="list-unstyled">
+							<li><strong>Viaje ida:</strong></li>
+							<li>10 de febrero</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul class="list-unstyled">
+							<li><strong>Distancia:</strong></li>
+							<li>360 km</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul class="list-unstyled">
+							<li><strong>Tiempo de viaje:</strong></li>
+							<li>7h</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- //// -->
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="alert alert-warning">
+					<input type="checkbox"> Acepto los <a href="">Terminos y condiciones</a> asi como las <a href="">Condiciones generales de uso</a> y declaro estar en posesión de un permiso de conducir y de un seguro vigente.
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-4 text-right"><a href="marcar-trayecto.html"><h4>Atras</h4></a></div>
+				<div class="col-md-4">
+					<button type="button" class="btn btn-success btn-lg btn-block">Publicar</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+				<h3>Seguridad y confianza</h3>
+					<ul class="list-unstyled">
+						<li>- Equipo de atencion al usuario</li>
+						<li>- Usuarios con perfiles certificados y con opiniones</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6"></div>
+	</div>
+</div><br><br>
+
+<!-- //// -->
+<footer>
+	<div class="container pie">
+		<div class="row">
+			<div class="col-md-3">
+				<h4>Viajar con buscarbus</h4>
+				<ul class="list-unstyled">
+					<li><a href="">Como compartir vehiculo</a></li>
+					<li><a href="">Como buscar autobus</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Acerca de buscarbus</h4>
+				<ul class="list-unstyled">
+					<li><a href="">Sobre nosotros</a></li>
+					<li><a href="">Empleo</a></li>
+					<li><a href="">Contactos</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Informacion legal</h4>
+				<ul class="list-unstyled">
+					<li><a href="">Condiciones generales de uso</a></li>
+					<li><a href="">Terminos y condiciones</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<h4>Social</h4>
+				<ul class="list-inline">
+					<li><a href=""><img src="img/redes-sociales/facebook.png" alt="facebook"></a></li>
+					<li><a href=""><img src="img/redes-sociales/instagram.png" alt="instagram"></a></li>
+					<li><a href=""><img src="img/redes-sociales/tumblr.png" alt="tumblr"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- //// -->
+
+<div class="derechos">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12"><small>Todos los derechos reservados Buscarbus 2017</small></div>
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/npm.js"></script>
+<script>    
+	$(function () { $("[data-toggle='tooltip']").tooltip(); }); 
+</script> 
+</body>
+</html>
